@@ -1,95 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+// rafce  code template of nextjs
+import React from 'react'
 
-export default function Home() {
+const home  = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    <div>
+       <h1> heloo world!</h1>
+       <img src="https://in.images.search.yahoo.com/images/view;_ylt=AwrKF4tvOdtlVV0EF3a9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzY3NTU0YjM0MTM0NzYyOTc3MjNlNGJlZWU0NTkwZDY1BGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dreact%26type%3DE211IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D2&w=1200&h=630&imgurl=arnondora.in.th%2Fcontent%2Fimages%2F2021%2F01%2Fhow-i-get-started-with-react-logo-og.png&rurl=https%3A%2F%2Farnondora.in.th%2Fhow-i-get-started-with-react%2F&size=10.5KB&p=react&oid=67554b3413476297723e4beee4590d65&fr2=piv-web&fr=mcafee&tt=How+I+Get+Started+With+React+-+Arnondora&b=0&ni=21&no=2&ts=&tab=organic&sigr=F7BjOa5mOwb1&sigb=CeCcCERPP7Vv&sigi=sNFEU38YXVw5&sigt=yT7LpISa5QaN&.crumb=b/XugW9PBce&fr=mcafee&fr2=piv-web&type=E211IN826G0"/>
+       <p> lorem34</p>
+    </div>
+  )
 }
+
+export default home ;
