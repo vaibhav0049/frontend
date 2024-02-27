@@ -3,7 +3,7 @@ import React from 'react'
 const Signup = () => {
   return (
     <div>
-      <h1  className='text-center'> sign up page </h1>
+      <h1  className='text-center'> sign in  </h1>
     </div>
   )
 }
