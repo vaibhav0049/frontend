@@ -12,8 +12,8 @@ const Comment = () => {
         type='text' className='form-control   px-3 border-2  border-dark'
         placeholder='post your comment here '/>
       </div>
-      <div className='card-body'>
-        
+      
+
       </div>
      </div>
 
