@@ -19,7 +19,7 @@ const Comment = () => {
 
     </div>
         
-    </div>
+   
   )
 }
 
