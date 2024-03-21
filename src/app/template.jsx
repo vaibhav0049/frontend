@@ -2,6 +2,7 @@
 'use client';
 import React, { useEffect } from 'react'
 import Navbar from '@/navbar';
+import { Toaster } from 'react-hot-toast';
 
 
 
@@ -16,6 +17,7 @@ const Template = ({children}) => {
 
   return (
     <div>
+    <Toaster position='top-center'/>
      <Navbar />
       {children}
     </div>
